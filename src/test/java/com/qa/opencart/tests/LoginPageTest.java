@@ -2,6 +2,7 @@ package com.qa.opencart.tests;
 
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import com.qa.opencart.base.BaseTest;
@@ -30,9 +31,10 @@ public class LoginPageTest extends BaseTest{
 		Assert.assertTrue(loginPage.isforgotPWdLinkExist());
 	}
 	
+	
 	@Test
 	public void loginTest() {
-		Assert.assertTrue(loginPage.doLogin("shruthi.avi72@gmail.com", "Anusha@13"), AppErrors.LOGIN_UNSUCESSFULL);
+		accpage =loginPage.doLogin("shruthi.avi72@gmail.com", "Anusha@123");
 		
 	}
 	

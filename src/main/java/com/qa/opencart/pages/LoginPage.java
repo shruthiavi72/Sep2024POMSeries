@@ -35,12 +35,12 @@ public class LoginPage {
 		return driver.findElement(forgotPwdLink).isDisplayed();
 	}
 	
-	public boolean doLogin(String un, String pwd) {
+	public AccPage doLogin(String un, String pwd) {
 		System.out.println("creds are :" + un + ":" + pwd);
 		driver.findElement(emailId).sendKeys(un);
 		driver.findElement(password).sendKeys(pwd);
 		driver.findElement(loginBtn).click();
-		return driver.findElement(By.linkText("Logout")).isDisplayed();
+		return new AccPage(driver);
 	}
 	
 }

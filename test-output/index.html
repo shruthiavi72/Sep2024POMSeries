@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\shrut\AppData\Local\Temp\testng-eclipse--1308415198\testng-customsuite.xml</span>
+                    <span>C:\Users\shrut\AppData\Local\Temp\testng-eclipse--323714812\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.opencart.tests.AccPageTest" class="method navigator-link" hash-for-method="accPageHeadersTest">accPageHeadersTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,17 +116,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="forgotPwdLinkExistTest">forgotPwdLinkExistTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.opencart.tests.AccPageTest" class="method navigator-link" hash-for-method="accPageTitleTest">accPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="loginPageURLTest">loginPageURLTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.opencart.tests.AccPageTest" class="method navigator-link" hash-for-method="accPageURLTest">accPageURLTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -144,41 +139,23 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.qa.opencart.tests.LoginPageTest</span>
+              <span class="class-name">com.qa.opencart.tests.AccPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Logout&quot;}
-  (Session info: chrome=128.0.6613.137)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3880be41d595f9d7ab4aedf5a58fddf9, findElement {using=link text, value=Logout}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\shrut\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55460/devtoo..., se:cdpVersion: 128.0.6613.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3880be41d595f9d7ab4aedf5a58fddf9
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at com.qa.opencart.pages.LoginPage.doLogin(LoginPage.java:43)
-	at com.qa.opencart.tests.LoginPageTest.loginTest(LoginPageTest.java:35)
+                  <a name="accPageHeadersTest">
+                  </a> <!-- accPageHeadersTest -->
+                  <span class="method-name">accPageHeadersTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: lists don&apos;t have the same size expected [4] but found [0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:555)
+	at org.testng.Assert.assertEquals(Assert.java:532)
+	at com.qa.opencart.tests.AccPageTest.accPageHeadersTest(AccPageTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -213,28 +190,21 @@ Session ID: 3880be41d595f9d7ab4aedf5a58fddf9
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.opencart.tests.LoginPageTest</span>
+              <span class="class-name">com.qa.opencart.tests.AccPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="forgotPwdLinkExistTest">
-                  </a> <!-- forgotPwdLinkExistTest -->
-                  <span class="method-name">forgotPwdLinkExistTest</span>
+                  <a name="accPageTitleTest">
+                  </a> <!-- accPageTitleTest -->
+                  <span class="method-name">accPageTitleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginPageTitleTest">
-                  </a> <!-- loginPageTitleTest -->
-                  <span class="method-name">loginPageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginPageURLTest">
-                  </a> <!-- loginPageURLTest -->
-                  <span class="method-name">loginPageURLTest</span>
+                  <a name="accPageURLTest">
+                  </a> <!-- accPageURLTest -->
+                  <span class="method-name">accPageURLTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,7 +212,7 @@ Session ID: 3880be41d595f9d7ab4aedf5a58fddf9
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\shrut\AppData\Local\Temp\testng-eclipse--1308415198\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\shrut\AppData\Local\Temp\testng-eclipse--323714812\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -251,7 +221,7 @@ Session ID: 3880be41d595f9d7ab4aedf5a58fddf9
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.opencart.tests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.opencart.tests.AccPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -291,28 +261,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(0, 3, 1269);
+data.setCell(0, 1, 'accPageHeadersTest')
+data.setCell(0, 2, 'com.qa.opencart.tests.AccPageTest')
+data.setCell(0, 3, 218);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'forgotPwdLinkExistTest')
-data.setCell(1, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(1, 3, 111);
+data.setCell(1, 1, 'accPageTitleTest')
+data.setCell(1, 2, 'com.qa.opencart.tests.AccPageTest')
+data.setCell(1, 3, 25);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginPageURLTest')
-data.setCell(2, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(2, 3, 13);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginPageTitleTest')
-data.setCell(3, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(3, 3, 12);
+data.setCell(2, 1, 'accPageURLTest')
+data.setCell(2, 2, 'com.qa.opencart.tests.AccPageTest')
+data.setCell(2, 3, 18);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 261 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -338,28 +304,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.opencart.tests.AccPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">forgotPwdLinkExistTest</span>
-                <span class="method-start">3585 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">3704 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">loginPageURLTest</span>
-                <span class="method-start">3721 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">accSetup</span>
+                <span class="method-start">4616 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">loginTest</span>
-                <span class="method-start">3741 ms</span>
+                <span class="method-name">accPageHeadersTest</span>
+                <span class="method-start">5981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accPageTitleTest</span>
+                <span class="method-start">6207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accPageURLTest</span>
+                <span class="method-start">6236 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
